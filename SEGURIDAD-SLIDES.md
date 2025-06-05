@@ -122,8 +122,55 @@ BB84 (Bennet y Brassard, 1984).
 
 ---
 
-<img src="images/Pasted image 20250529180857.png" alt="" style="max-width: 80%; height: auto;">
+# DES (Estándar de Encriptación de Datos)
+- Enero de 1977 por **IBM**
+- El Original ya no es útil, es vulnerable por **Fuerza Bruta**
+- Para Archivos no secretos del Gobierno 
+---
+# FUERZA BRUTA
+---
+# DES
+Poseía una clave de **56 bits**, su estructura consta de **19 etapas**, iniciando con una permutación fija, <split ></split>luego pasa por 16 iteraciones idénticas las cuales aplican sustituciones, permutaciones y <split></split>operaciones XOR con subclaves derivadas de la clave original, para culminar intercambia los 32 bits izquierdos y derechos <split ></split>
+Terminando con deshacer la permutación fija inicial.
+___
+---
+# Triple DES
+- Enero de 1979 por **IBM**
+- Dos Claves y tres etapas (EDE)
+- 112bits
+---
+# AES (Estándar de encriptación Avanzada)
+- 1997
+- NIST (National Institute of standards and Technology)
+---
+# AES
+1. El algoritmo debe ser un sistema de cifrado de bloques simétrico.
+2. Todo el diseño debe ser público.
+3. Se deben soportar las longitudes de claves de 128, 192 y 256 bits.
+4. Deben ser posibles las implementaciones tanto de software como de hardware.
+5. El algoritmo debe ser público o con licencia en términos no discriminatorios.
+---
+# RJINDAL
+- Cifrado simétrico por bloques (AES - 128)
+## Estructura
+1. **SubBytes** (Sustitución)
+2. **ShiftRows** (Desplazamiento)
+3. **MixColumns** (Mezcla)
+4. **AddRoundKey** (XOR con clave de ronda):
+---
+# PROBLEMA DE LOS ALGORITMOS DE CLAVE SIMETRICA
 
+---
+#  - Electronic Code Book
+# - Cipher Block Chaining
+# - cipher feedback
+# - Stream Cipher
+# - Counter Mode
+---
+# EJEMPLO STREAM CIPHER
+---
+
+<img src="images/Pasted image 20250529180857.png" alt="" style="max-width: 80%; height: auto;">
 ---
 # Clave Asimétrica
 ---
